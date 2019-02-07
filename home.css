@@ -1,0 +1,100 @@
+/*  remove MArgin + Padding * nozime ka darbosies uz visu lauku*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Georgia, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+h2, h3{
+    color: black;
+}
+h1{
+    size: 72px;
+    color: black;
+}
+    
+    h1{
+        size: 72px;
+   
+}
+h3{
+    size: 16px;
+    padding-top: 7px;
+   
+}
+.photo, .about, .sidebar-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photo{
+  
+line-height: 1.5em;
+text-align: justify;
+color:black;
+
+
+}
+.about{
+    
+font-size: 18px;
+line-height: 1.5em;
+text-align: justify;
+color: black;
+
+
+}
+.sidebar-text{
+    
+    font-size: 12px;
+    line-height: 1.8em;
+    text-align: justify;
+    color: black;
+
+}
+
+/* layout*/
+.container{
+    width: 960px;
+  margin: 0 auto 0 auto;
+}
+.top{
+background-color:black;
+
+
+}
+.bottom-left{
+
+    background-color:olivedrab;
+    width: 75%;
+    float: left;
+    padding-top: 25px;
+}
+.bottom-right{
+    background-color: yellow;
+    width: 75%;
+    float: left;
+}
+.sidbar-text{
+    background-color: blue;
+
+}
+.ievas-cv{
+    background-color:blueviolet;
+    padding: 215px 50px 50px 0;
+    margin-bottom: 150px;
+}
+.work-expirence{
+    background-color: rgb(90, 90, 15);
+    width: 75%;
+    float: left;
+}
+img{
+    max-width: 75%;
+    height: auto;
+    float: left;
+}
